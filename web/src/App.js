@@ -1,13 +1,15 @@
 import React from 'react';
-import CompA from './componentes/CompA';
-import CompAB from './componentes/CompAB';
 
+import CompAB from './componentes/CompAB';
+import Menu from './componentes/menu/menu';
+// import Imagem from './componentes/imagem/imagem';
 
 function App() {
     return(
         <>
-    <CompA />
-    <CompAB  nome = "ferreira"/>
+    <Menu />
+    
+    <CompAB  nome = "kitty"/>
     </>
     )
 }
