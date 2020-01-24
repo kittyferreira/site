@@ -6,7 +6,7 @@ export default function CompB(props) {
     return (
    <>
    <h1>Bom dia!!! kitty como vai você? {props.nome}
- {props.sobrenome} ? </h1>
+ {props.sobrenome}  </h1>
  </>
  
  );
